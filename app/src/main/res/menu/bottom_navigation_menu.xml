@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_chat"
+        android:title="@string/chat"
+        android:icon="@drawable/ic_message_chat_24dp" />
+    <item android:id="@+id/action_friend"
+        android:title="@string/friend"
+        android:icon="@drawable/ic_people_friend_24dp" />
+</menu>

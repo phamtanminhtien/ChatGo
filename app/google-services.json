@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "835619670015",
+    "firebase_url": "https://chat-go-63d2d.firebaseio.com",
+    "project_id": "chat-go-63d2d",
+    "storage_bucket": "chat-go-63d2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835619670015:android:4f420f0f44671c9db649ca",
+        "android_client_info": {
+          "package_name": "com.tietha.chatgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835619670015-ca50lovurachjcfua28ee9ddggv9lp7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tietha.chatgo",
+            "certificate_hash": "119532a89e138c572af1911fc2d1cea29240a3f4"
+          }
+        },
+        {
+          "client_id": "835619670015-pi3l5oesn0hf6dtbpv562g0hsrdh8inp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPiggheKHN0YWKlzeNrhr7RsjSaGU3RQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835619670015-pi3l5oesn0hf6dtbpv562g0hsrdh8inp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

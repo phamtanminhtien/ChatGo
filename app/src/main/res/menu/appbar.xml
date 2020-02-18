@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/camera"
+        android:title="@string/camera"
+        android:icon="@drawable/ic_camera"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/pen"
+        android:title="@string/pen"
+        android:icon="@drawable/ic_pen"
+        app:showAsAction="ifRoom"/>
+</menu>

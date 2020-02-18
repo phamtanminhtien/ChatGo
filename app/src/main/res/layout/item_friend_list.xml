@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:id="@+id/root_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="7dp"
+    android:paddingTop="7dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:focusable="true"
+    android:background="#000">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:padding="3dp"
+            android:id="@+id/avatar_list_item"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:src="@drawable/good_night_img"
+            app:civ_border_color="@color/pp_white"
+            app:civ_border_width="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/state_onl"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/online"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri"
+                android:text="Minh Tien"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:id="@+id/des_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri"
+                android:text="This is description for meThis is desr meThis is desr meThis is desr meThis is description for meThis is description for me"
+                android:textColor="#A5A5A5"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
